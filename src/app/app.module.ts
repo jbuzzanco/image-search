@@ -15,7 +15,8 @@ import { ImageService } from './shared/image.service';
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    FormsModule
   ],
   providers: [HttpModule, ImageService],
   bootstrap: [AppComponent]
