@@ -8,6 +8,15 @@ import { ImageListComponent } from './image-list/image-list.component';
 
 import { ImageService } from './shared/image.service';
 
+import { MdInputModule, MdButtonModule, MdProgressBarModule, MdCardModule } from '@angular/material';
+
+
+
+
+import { MasonryModule } from 'angular2-masonry';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +25,15 @@ import { ImageService } from './shared/image.service';
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule
+    FormsModule,
+
+    MdInputModule,
+    MdButtonModule,
+    MdCardModule,
+    MdProgressBarModule,
+
+    MasonryModule,
+    BrowserAnimationsModule
   ],
   providers: [HttpModule, ImageService],
   bootstrap: [AppComponent]
