@@ -8,6 +8,7 @@ import { ImageService } from '../shared/image.service';
 })
 export class ImageListComponent implements OnInit {
   images: any[];
+  searchQuery: string;
   imagesFound: boolean = false;
   searching: boolean = false;
 
@@ -22,7 +23,6 @@ export class ImageListComponent implements OnInit {
   }
 
   constructor(private _imageService : ImageService) { }
-
   searchImages(query: string){
     this.searching = true;
     return this._imageService.getImage(query).subscribe(
