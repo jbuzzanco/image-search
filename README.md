@@ -1,7 +1,7 @@
 # Public Domain Image Search App
 ##### Search images within the public domain using Pixabay API
 
-![example screenshot](https://imgur.com/VYEEz0s)
+![example screenshot](https://i.imgur.com/VYEEz0s.png)
 
 
 
