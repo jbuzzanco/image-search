@@ -1,28 +1,33 @@
-# PixabaySearch
+# Public Domain Image Search App
+##### Search images within the public domain using Pixabay API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+![example screenshot](https://imgur.com/VYEEz0s)
+
+
+
+### Technologies that made this:
+
+ * Angular 4
+ * TypeScript
+ * Angular CLI
+ * Agnular-cli-ghpages
+ * Angular Material
+ * Bootstrap
+ * Pixabay API
+
+
+### What it does?
+
+This is an application that allows a user or visitor of the site to search for something that they would like to see. Say, waffles, and it would return 10 photos with tags (say breakfast), the number of comment and likes, and the user who posted waffles from the Pixabay API. Upon hitting the image the user wants, it takes them to the view within Pixabay to download or view.
+
+This is hosted live on a **production server**, [view application here :grin:](https://jbuzzanco.github.io/image-search/).
+
+
+### What I learned?
+
+Although this is a fairly small application, I loved working with Angular as a framework. It was most fun working with Angular Material, using Google's Material design to create a visually appealing application. The documentation was small but straightforward for Angular Material and gave you plenty of feedback in the console when you needed to complete the next step for implementing it, while being clearly written in the documentaion, for dependencies. Perhaps what I most learned is dependencies and how the template depends on the model and the app module is ***mainly*** global within the app directory. Happy to have this built and look forward to working more with Angular.
+
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
