@@ -10,7 +10,7 @@
  * Angular 4
  * TypeScript
  * Angular CLI
- * Agnular-cli-ghpages
+ * Angular-cli-ghpages
  * Angular Material
  * Bootstrap
  * Pixabay API
