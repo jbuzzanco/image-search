@@ -15,8 +15,8 @@
 <md-card>
   <h4 *ngIf="imagesFound" md-subheader>Results</h4>
     <masonry [useImagesLoaded]="true">
-      <masonry-brick *ngFor="let image of images" class=image-container>
-        <md-card>
+      <masonry-brick *ngFor="let image of images" class="image-container">
+        <md-card class="center">
           <a href="{{ image.pageURL }}" target="_bank">
             <md-card-header>
               <div class="avatar" md-card-avatar [ngStyle]="{'background-image':'url('+ image.userImageURL +')', 'background-size':'40px 40px'}"></div>
